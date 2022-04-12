@@ -1,0 +1,26 @@
+.list {
+  background-color: white;
+  width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.list-navigation {
+  padding: 16px 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-navigation-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.clear-completed {
+  cursor: pointer;
+}
