@@ -1,4 +1,3 @@
-import { useSelector } from "react-redux";
 import styles from "./App.module.css";
 import Background from "./Components/Background/Background";
 import List from "./Components/Lists/UnorderedList";

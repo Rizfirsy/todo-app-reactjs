@@ -30,12 +30,8 @@ const taskSlice = createSlice({
       state.tasks = uncompleted;
     },
     allFilter(state) {},
-    completeFilter(state) {
-      state.tasks = state.tasks.filter((task) => task.completed === true);
-    },
-    activeFilter(state) {
-      state.tasks = state.tasks.filter((task) => task.status === "active");
-    },
+    completeFilter(state, action) {},
+    activeFilter(state, action) {},
   },
 });
 
