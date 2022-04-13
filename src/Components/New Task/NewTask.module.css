@@ -41,3 +41,12 @@
   border-radius: 100%;
   border: solid 1px var(--g03);
 }
+
+@media screen and (max-width: 400px) {
+  .new-task {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+}

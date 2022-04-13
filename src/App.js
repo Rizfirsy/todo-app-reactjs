@@ -9,7 +9,6 @@ function App() {
       <Background />
       <div className={styles.main}>
         <NewTask />
-        {}
         <List />
       </div>
     </div>
